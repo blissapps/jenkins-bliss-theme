@@ -110,7 +110,10 @@ h1, h2, h3, h4, h5, h6{
   }
 }
 .pane-frame {
-  /* border: solid 1px #f0f0f0; */
+  border: none;
+}
+#side-panel .pane-frame:hover, #side-panel .pane-frame.mouseover {
+  border: none;
 }
 table.pane {
   border-collapse: collapse;
