@@ -30,10 +30,17 @@ h1, h2, h3, h4, h5, h6{
 		}
 	}
   	.logo{
-		img{
-			visibility: hidden;
+		img.jenkins-head-icon{
+			
+		}
+		img.jenkins-name-icon{
+			visibility:hidden;
 		}
 	}
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 #projectstatus {
 	background: #fff;
