@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none; }
   #header td#login-field span a {
     background: none; }
-  #header .logo img {
+  #header > .logo > img {
     visibility: hidden; }
 
 #projectstatus {
