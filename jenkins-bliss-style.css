@@ -92,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 10px;
   line-height: inherit; }
 
+#tasks > div:nth-child(7) {
+  display: none; }
+
 #jenkins .yui-button.danger button, #jenkins .yui-button.danger button:hover, #jenkins .yui-button.danger .hover {
   background-color: #d24939;
   color: white;
