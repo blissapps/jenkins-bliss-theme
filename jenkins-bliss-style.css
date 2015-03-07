@@ -74,14 +74,6 @@ h1, h2, h3, h4, h5, h6 {
     #side-panel .task a:hover {
       text-decoration: underline; }
 
-#jenkins .yui-button button, #jenkins .yui-button button:hover, #jenkins .yui-button.primary button:hover, #jenkins .yui-button.primary .hover {
-  font-size: 10px;
-  padding: 3px 3px;
-  border-radius: 3px;
-  border: 1px solid #DDB643;
-  background-color: #DDB643;
-  color: #505050; }
-
 #jenkins .yui-button .hetero-list-add, #jenkins .yui-button .hetero-list-add:hover {
   padding-right: 25px; }
 
@@ -89,11 +81,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1em; }
 
 .yui-skin-sam .yui-button button, .yui-skin-sam .yui-button a, .yui-skin-sam .yui-button a:visited,
-.yui-skin-sam .yui-button button, .yui-skin-sam .yui-button a, .yui-skin-sam .yui-button a:visited {
+.yui-skin-sam .yui-button button, .yui-skin-sam .yui-button a, .yui-skin-sam .yui-button a:visited,
+#jenkins .yui-button button, #jenkins .yui-button button:hover, #jenkins .yui-button.primary button:hover,
+#jenkins .yui-button.primary .hover {
+  border-radius: 5px;
+  border: 1px solid #DDB643;
+  background-color: #DDB643;
+  color: #505050;
   padding: 10px 10px;
   font-weight: 500;
-  line-height: 1;
-  color: #333; }
+  line-height: 1; }
 
 #jenkins .yui-button.primary button {
   border: 1px solid #DDB643;
