@@ -118,7 +118,9 @@ h1, h2, h3, h4, h5, h6{
   background-color: #DDB643;
   color: #505050;
 }
-
+#jenkins .yui-button .hetero-list-add, #jenkins .yui-button .hetero-list-add:hover {
+  padding-right: 35px;
+}
 #description div {
   font-size:1em;
 }
