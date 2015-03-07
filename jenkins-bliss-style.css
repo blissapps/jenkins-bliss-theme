@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
     #side-panel .task a:hover {
       text-decoration: underline; }
 
+.pane td {
+  font-size: 9px;
+  word-break: break-all; }
+
 #main-panel {
   background: #fff; }
   #main-panel > h1 {
