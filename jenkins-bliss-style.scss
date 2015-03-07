@@ -6,6 +6,12 @@ $candy-stripe2: #e5e5e5;
 $candy-stripe-hover: #f0f0f0;
 $logo: "http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115";
 
+#jenkins-head-icon {
+  position: absolute;
+  bottom: 5px;
+  height: 30px;
+}
+
 body {
 	background: $body-background;
 	background: -moz-linear-gradient(top, $body-background 0%, $body-background-bottom 100%);
@@ -30,10 +36,12 @@ h1, h2, h3, h4, h5, h6{
 		}
 	}
   	.logo{
-		img.jenkins-head-icon{
-			
+		#jenkins-head-icon {
+		  position: absolute;
+		  bottom: 5px;
+		  height: 30px;
 		}
-		img.jenkins-name-icon{
+		img#jenkins-name-icon{
 			visibility:hidden;
 		}
 	}
