@@ -1,12 +1,8 @@
 @import url(http://master.source.test.do/dist/theme.css);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext);
-#jenkins-head-icon {
-  position: absolute;
-  bottom: 5px;
-  height: 30px; }
-
-pre {
+pre,
+pre.console-output {
   font-family: "Source Code Pro";
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -19,5 +15,12 @@ pre {
 h1, h2, h3, h4, h5, h6, body, table, form, input, td, th, p, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px; }
+
+#tasks > div:nth-child(7) {
+  display: none; }
+
+.pane td {
+  font-size: 9px;
+  word-break: break-all; }
 
 /*# sourceMappingURL=jenkins-bliss-style.css.map */
