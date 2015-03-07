@@ -6,10 +6,22 @@ $candy-stripe2: #e5e5e5;
 $candy-stripe-hover: #f0f0f0;
 $logo: "http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115";
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext);
 #jenkins-head-icon {
   position: absolute;
   bottom: 5px;
   height: 30px;
+}
+
+pre {
+	font-family: 'Source Code Pro', ;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+	font-size:10px;
 }
 
 body {
