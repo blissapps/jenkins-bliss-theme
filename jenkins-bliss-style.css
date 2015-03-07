@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5, h6 {
     #side-panel .task a:hover {
       text-decoration: underline; }
 
+.pane-frame {
+  /* border: solid 1px #f0f0f0; */ }
+
 table.pane {
   border-collapse: collapse;
   border: 1px #bbb solid;
