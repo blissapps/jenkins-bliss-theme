@@ -80,8 +80,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   border: 1px solid #DDB643;
   background-color: #DDB643;
-  color: #505050;
-  font-weight: bold; }
+  color: #505050; }
+
+#jenkins .yui-button.primary button {
+  border: 1px solid #DDB643;
+  background-color: #DDB643;
+  color: #505050; }
 
 .pane-frame {
   border: none; }
