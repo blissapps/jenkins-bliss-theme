@@ -125,8 +125,7 @@ h1, h2, h3, h4, h5, h6{
   background-color: #DDB643;
   color: #505050;	
   padding: 10px 10px;
-	font-weight: 500;
-   line-height: 1;
+   line-height: inherit;
   
 }
 #jenkins .yui-button.primary button {
