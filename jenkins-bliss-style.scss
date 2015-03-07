@@ -110,9 +110,9 @@ h1, h2, h3, h4, h5, h6{
   }
 }
 
-#jenkins .yui-button button {
+#jenkins .yui-button button, #jenkins .yui-button button:hover {
   font-size: 10px;
-  padding: 3px 30px;
+  padding: 3px 3px;
   border-radius: 3px;
   border: 1px solid #DDB643;
   background-color: #DDB643;
@@ -153,11 +153,6 @@ table.pane {
 #main-table {
 	border-top:0;
 	border-bottom:0;
-}
-#description {
-	div {
-	font-size: 1.3em;
-	}
 }
 #footer-container {
   padding: 15px 15px;
