@@ -74,6 +74,15 @@ h1, h2, h3, h4, h5, h6 {
     #side-panel .task a:hover {
       text-decoration: underline; }
 
+#jenkins .yui-button button {
+  font-size: 10px;
+  padding: 3px 30px;
+  border-radius: 3px;
+  border: 1px solid #DDB643;
+  background-color: #DDB643;
+  color: #505050;
+  font-weight: bold; }
+
 .pane-frame {
   border: none; }
 
