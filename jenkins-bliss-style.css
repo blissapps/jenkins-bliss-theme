@@ -29,4 +29,25 @@ h1, h2, h3, h4, h5, h6, body, table, form, input, td, th, p, textarea, select {
   margin: 0 0 0 10px;
   background-size: contain; }
 
+#description {
+  clear: both; }
+
+#jenkins .yui-button button, .btn.btn-primary {
+  font-size: 12px;
+  padding: 3px 20px;
+  border-radius: 1px;
+  border: 1px solid #cccccc;
+  background-color: #e0e0e0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #505050;
+  font-weight: bold; }
+
+.doony-build {
+  display: block; }
+
+#jenkins .yui-button.primary button {
+  background-color: #205081;
+  color: white;
+  border: 1px solid #205081; }
+
 /*# sourceMappingURL=jenkins-bliss-style.css.map */
